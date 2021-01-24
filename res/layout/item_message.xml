@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginStart="@dimen/activity_horizontal_margin"
+    android:layout_marginEnd="5dp"
+    android:orientation="vertical"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/message_bg">
+
+    <TextView
+        android:textSize="12sp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:textColor="#F60606"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        tools:text="Name"
+        android:paddingStart="5dp" />
+
+    <ImageView
+        android:padding="5dp"
+        android:id="@+id/photoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/image_description" />
+
+    <TextView
+        android:textSize="16sp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"
+        android:id="@+id/messageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:text="Message" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Friendly Chat</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="send_button_label">Send</string>
+    <string name="hint">Type a message…</string>
+    <string name="image_description">image</string>
+</resources>
